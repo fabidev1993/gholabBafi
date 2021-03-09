@@ -1,6 +1,5 @@
 body {
     font-family: "Tahoma", sans-serif;
-
     font-weight: 400;
 }
 
@@ -135,12 +134,11 @@ li a:hover {
 
 .item {
     margin: 0 10px 1px 10px;
-    width: 390px;
+    width: 33%;
 }
 
-.fig {
-    height: 220px;
-    width: 320px;
+img {
+    margin: 0 auto;
 }
 
 .fig img {
@@ -165,8 +163,14 @@ p {
     direction: rtl;
 }
 
-.slide {
-    width: 2340px;
-    right: 0px;
+footer {
+    background-color: #ffebfa;
+    display: block;
+    margin: 15px -8px -8px -8px;
+    color: gray;
+    text-align: center;
+}
 
+.footer {
+    padding: 10px;
 }
